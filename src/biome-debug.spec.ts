@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises"
 import test, { expect } from "playwright/test"
-import { thisFunctionReturnsPromise } from "./randomModule"
+import { thisFunctionReturnsPromise } from "./randomModule.ts"
 
 /** used to just see the rule works at least partially */
 async function asyncFn() {
